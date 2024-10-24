@@ -1,4 +1,5 @@
 # Game of Life in Rust targeting WASM
+![image](https://github.com/user-attachments/assets/5720c258-75d8-49fb-a167-a32740a71188)
 
 To run:
 
