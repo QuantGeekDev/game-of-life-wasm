@@ -1,7 +1,8 @@
 # Game of Life in Rust targeting WASM
 
 To run:
-0. You might need to set node options for openssl legacy providers with:
+
+Note: You might need to set node options for openssl legacy providers with:
 `export NODE_OPTIONS=--openssl-legacy-provider`
 1. `wasm-pack build` in root directory
 2. `npm init wasm-app www` to create `www` subdirectory
