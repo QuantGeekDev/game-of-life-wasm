@@ -8,6 +8,15 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, wasm-game-of-life!");
+pub fn greet(name: &str) {
+    let alert_message = format!("Hello, {}!", name);
+    alert(alert_message.as_str());
+}
+
+#[wasm_bindgen]
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+#[repr(u8)]
+pub enum Cell{
+    Dead = 0,
+    Alive = 1
 }

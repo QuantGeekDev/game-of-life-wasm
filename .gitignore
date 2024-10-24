@@ -2,7 +2,24 @@
 **/*.rs.bk
 Cargo.lock
 bin/
-pkg/
 wasm-pack.log
 .env
 DS_Store
+
+# Node.js
+/www/node_modules/
+/www/dist/
+npm-debug.log*
+
+# WebAssembly build outputs
+/pkg/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+*.pdb
